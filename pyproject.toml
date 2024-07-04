@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "sonos-ctrl"
+version = "0.1.0"
+description = ""
+authors = ["Thibaut"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+soco = "^0.30.4"
+gpiozero = "^2.0.1"
+rpi-gpio = "^0.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
